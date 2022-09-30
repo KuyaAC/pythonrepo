@@ -1,4 +1,4 @@
-q= int(input("Press a calculating method you want to use:1 for (+),2 for (-),3 for (*), 4 for(/):"))
+q= int(input("Press a calculating method you want to use:1234 for (+),2 for (-),3 for (*), 4 for(/):"))
 
 
 if  q == 1:

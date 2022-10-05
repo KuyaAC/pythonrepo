@@ -1,6 +1,7 @@
 def add_dots(add):
     return '.'.join(add)
-a = add_dots('test')
+i=input("Enter a string:")
+a = add_dots(i)
 print(a)
 
 def remove_dots(remove):

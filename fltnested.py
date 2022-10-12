@@ -1,8 +1,8 @@
-result = []
-lst = [[1,2], [3,4]]
+def flatten(lst):
+    result = []
+    for sublist in lst:
+        for item in sublist:
+            result.append(item)
 
-for flatten in lst:
-    for item in flatten:
-        result.append(item)
-        
-print(result)
+    return result
+print(flatten([[1, 2], [3, 4]]))
